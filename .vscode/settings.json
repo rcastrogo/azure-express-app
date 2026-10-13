@@ -1,0 +1,10 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".github{,/**}",
+    ".env",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/09438671-4998-4f7b-a105-f8bb59b1a562/resourceGroups/appsvc_linux_spaincentral/providers/Microsoft.Web/sites/rcg-express-app",
+  "appService.deploySubpath": "."
+}

@@ -1,0 +1,18 @@
+{
+  "name": "azure-express-app",
+  "version": "1.0.0",
+  "description": "Proyecto básico Node.js + Express listo para Azure App Service",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch --env-file=.env server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
