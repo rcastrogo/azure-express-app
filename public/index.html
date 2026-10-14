@@ -47,8 +47,8 @@
     .topbar-title { font-size: 13px; font-weight: 600; }
     .service-status { display: inline-flex; align-items: center; gap: 7px; color: #587068; font-size: 11px; font-weight: 600; }
     .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #55b981; box-shadow: 0 0 0 3px #e2f4e8; }
-    .chat-area { display: flex; width: min(100%, 920px); flex: 1; flex-direction: column; margin: 0 auto; padding: 34px 34px 20px; }
-    .conversation { display: flex; flex: 1; flex-direction: column; gap: 24px; padding: 16px 0 30px; }
+    .chat-area { display: flex; width: min(100%, 920px); min-height: 0; flex: 1; flex-direction: column; margin: 0 auto; padding: 34px 34px 20px; }
+    .conversation { display: flex; min-height: 0; flex: 1; flex-direction: column; gap: 24px; overflow-y: auto; padding: 16px 0 30px; scrollbar-gutter: stable; }
     .welcome { margin: auto auto 28px; text-align: center; animation: arrive .45s ease-out both; }
     .welcome-mark { display: grid; width: 50px; height: 50px; margin: 0 auto 20px; place-items: center; border-radius: 16px; color: var(--forest); background: var(--mint); font-size: 24px; }
     .welcome h1 { margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: clamp(32px, 5vw, 43px); font-weight: 500; letter-spacing: 0; }
